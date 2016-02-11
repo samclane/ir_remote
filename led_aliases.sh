@@ -1,0 +1,15 @@
+#!/bin/bash
+port="/dev/ttyACM1"
+# LED Control Aliases
+alias led_green="echo -e -n '\x10' > $port"
+alias led_dim="echo -e -n '\x20' > $port"
+alias led_blue="echo -e -n '\x50' > $port"
+alias led_off="echo -e -n '\x60' > $port"
+alias led_red="echo -e -n '\x90' > $port"
+alias led_bright="echo -e -n '\xA0' > $port"
+alias led_smooth="echo -e -n '\xC8' > $port"
+alias led_white="echo -e -n '\xD0' > $port"
+alias led_fade="echo -e -n '\xD1' > $port"
+alias led_on="echo -e -n '\xE0' > $port"
+alias led_strobe="echo -e -n '\xE1' > $port"
+alias led_flash="echo -e -n '\xF0' > $port"
