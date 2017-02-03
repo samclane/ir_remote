@@ -1,3 +1,5 @@
+// Based off code by instructables.com user chr. I take no credit for his work
+
 void setup()
 {
  
