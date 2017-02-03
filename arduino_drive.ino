@@ -1,5 +1,5 @@
 // Based off code by instructables.com user chr. I take no credit for his work
-
+// http://www.instructables.com/id/Reverse-Engineering-RGB-LED-Bulb-with-IR-remote/?ALLSTEPS
 void setup()
 {
  
